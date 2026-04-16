@@ -1,0 +1,6 @@
+- Viable service vocabulary from Semrush is now clear: SEO should be built around `seo`, Paid Ads around `google ads`, and Website Development around `webdesign`.
+- SEO has the strongest confirmed commercial service term so far: `seo agentur` at 14.8K monthly volume with 60% KD. `seo beratung` also shows viable demand at 5.4K with much lower KD (21%).
+- The first confirmed local pattern is Düsseldorf: `seo agentur Düsseldorf` outperformed `seo Düsseldorf` and `seo beratung Düsseldorf`, which supports using the local agency format as the default geo-page pattern.
+- `preise` and `freelancer` surfaced as separate intent clusters rather than clean service-page targets, so they were not used as the core URL pattern.
+- Tier 1 remains Düsseldorf, Köln, and Dortmund. Tier 2 remains Essen, Duisburg, Bochum, and Wuppertal. Tier 3 is still excluded because the crawl was stopped before expansion.
+- Artifact A has been completed as a provisional sitemap CSV: confirmed Semrush metrics are filled where available, and the remaining rows are explicitly marked as planned-but-unvalidated.
