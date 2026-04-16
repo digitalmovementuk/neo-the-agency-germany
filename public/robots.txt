@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digitalmovementuk.github.io/neo-the-agency-germany/sitemap.xml

@@ -1,0 +1,20 @@
+{
+  "name": "NEO THE AGENCY Germany",
+  "short_name": "NEO Germany",
+  "start_url": "/neo-the-agency-germany/",
+  "display": "standalone",
+  "background_color": "#06101f",
+  "theme_color": "#0032ca",
+  "icons": [
+    {
+      "src": "/neo-the-agency-germany/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/neo-the-agency-germany/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
