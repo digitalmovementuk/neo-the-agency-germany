@@ -1,0 +1,336 @@
+{
+  "startedAt": "2026-04-16T11:04:12.304Z",
+  "windowId": 1258826444,
+  "tab": 1,
+  "candidateResults": {
+    "Search Engine Optimisation (SEO)": [
+      {
+        "query": "seo",
+        "title": "seo: Overview, Keyword Overview",
+        "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo&db=de",
+        "h1": "seo",
+        "volume": "33.1K",
+        "kd": "63%",
+        "intent": "Informational",
+        "cpc": "$2.65"
+      },
+      {
+        "query": "suchmaschinenoptimierung",
+        "title": "suchmaschinenoptimierung: Overview, Keyword Overview",
+        "href": "https://www.semrush.com/analytics/keywordoverview/?q=suchmaschinenoptimierung&db=de",
+        "h1": "suchmaschinenoptimierung",
+        "volume": "12.1K",
+        "kd": "59%",
+        "intent": "Informational",
+        "cpc": "$3.50"
+      }
+    ],
+    "Paid Ads": [
+      {
+        "query": "google ads",
+        "title": "google ads: Overview, Keyword Overview",
+        "href": "https://www.semrush.com/analytics/keywordoverview/?q=google+ads&db=de",
+        "h1": "google ads",
+        "volume": "110.0K",
+        "kd": "47%",
+        "intent": "Informational",
+        "cpc": "$19.07"
+      },
+      {
+        "query": "sea",
+        "title": "sea: Overview, Keyword Overview",
+        "href": "https://www.semrush.com/analytics/keywordoverview/?q=sea&db=de",
+        "h1": "sea",
+        "volume": "12.1K",
+        "kd": "34%",
+        "intent": "Informational",
+        "cpc": "$0.74"
+      },
+      {
+        "query": "ppc",
+        "title": "ppc: Overview, Keyword Overview",
+        "href": "https://www.semrush.com/analytics/keywordoverview/?q=ppc&db=de",
+        "h1": "ppc",
+        "volume": "6.6K",
+        "kd": "43%",
+        "intent": "Navigational",
+        "cpc": "$0.38"
+      },
+      {
+        "query": "performance marketing",
+        "title": "performance marketing: Overview, Keyword Overview",
+        "href": "https://www.semrush.com/analytics/keywordoverview/?q=performance+marketing&db=de",
+        "h1": "performance marketing",
+        "volume": "4.4K",
+        "kd": "37%",
+        "intent": "Informational",
+        "cpc": "$2.70"
+      }
+    ],
+    "Website Development": [
+      {
+        "query": "webdesign",
+        "title": "webdesign: Overview, Keyword Overview",
+        "href": "https://www.semrush.com/analytics/keywordoverview/?q=webdesign&db=de",
+        "h1": "webdesign",
+        "volume": "18.1K",
+        "kd": "38%",
+        "intent": "Commercial",
+        "cpc": "$2.64"
+      },
+      {
+        "query": "webentwicklung",
+        "title": "webentwicklung: Overview, Keyword Overview",
+        "href": "https://www.semrush.com/analytics/keywordoverview/?q=webentwicklung&db=de",
+        "h1": "webentwicklung",
+        "volume": "4.4K",
+        "kd": "21%",
+        "intent": "Informational",
+        "cpc": "$2.39"
+      }
+    ]
+  },
+  "chosenBases": {
+    "Search Engine Optimisation (SEO)": {
+      "query": "seo",
+      "serviceLabel": "SEO",
+      "slug": "seo"
+    },
+    "Paid Ads": {
+      "query": "google ads",
+      "serviceLabel": "Google Ads",
+      "slug": "google-ads"
+    },
+    "Website Development": {
+      "query": "webdesign",
+      "serviceLabel": "Webdesign",
+      "slug": "webdesign"
+    }
+  },
+  "rawQueries": {
+    "seo": {
+      "query": "seo",
+      "title": "seo: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo&db=de",
+      "h1": "seo",
+      "volume": "33.1K",
+      "kd": "63%",
+      "intent": "Informational",
+      "cpc": "$2.65"
+    },
+    "suchmaschinenoptimierung": {
+      "query": "suchmaschinenoptimierung",
+      "title": "suchmaschinenoptimierung: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=suchmaschinenoptimierung&db=de",
+      "h1": "suchmaschinenoptimierung",
+      "volume": "12.1K",
+      "kd": "59%",
+      "intent": "Informational",
+      "cpc": "$3.50"
+    },
+    "google ads": {
+      "query": "google ads",
+      "title": "google ads: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=google+ads&db=de",
+      "h1": "google ads",
+      "volume": "110.0K",
+      "kd": "47%",
+      "intent": "Informational",
+      "cpc": "$19.07"
+    },
+    "sea": {
+      "query": "sea",
+      "title": "sea: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=sea&db=de",
+      "h1": "sea",
+      "volume": "12.1K",
+      "kd": "34%",
+      "intent": "Informational",
+      "cpc": "$0.74"
+    },
+    "ppc": {
+      "query": "ppc",
+      "title": "ppc: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=ppc&db=de",
+      "h1": "ppc",
+      "volume": "6.6K",
+      "kd": "43%",
+      "intent": "Navigational",
+      "cpc": "$0.38"
+    },
+    "performance marketing": {
+      "query": "performance marketing",
+      "title": "performance marketing: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=performance+marketing&db=de",
+      "h1": "performance marketing",
+      "volume": "4.4K",
+      "kd": "37%",
+      "intent": "Informational",
+      "cpc": "$2.70"
+    },
+    "webdesign": {
+      "query": "webdesign",
+      "title": "webdesign: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=webdesign&db=de",
+      "h1": "webdesign",
+      "volume": "18.1K",
+      "kd": "38%",
+      "intent": "Commercial",
+      "cpc": "$2.64"
+    },
+    "webentwicklung": {
+      "query": "webentwicklung",
+      "title": "webentwicklung: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=webentwicklung&db=de",
+      "h1": "webentwicklung",
+      "volume": "4.4K",
+      "kd": "21%",
+      "intent": "Informational",
+      "cpc": "$2.39"
+    },
+    "agentur seo": {
+      "query": "agentur seo",
+      "title": "agentur seo: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=agentur+seo&db=de",
+      "h1": "agentur seo",
+      "volume": "880",
+      "kd": "41%",
+      "intent": "Commercial",
+      "cpc": "$13.30"
+    },
+    "seo agentur": {
+      "query": "seo agentur",
+      "title": "seo agentur: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+agentur&db=de",
+      "h1": "seo agentur",
+      "volume": "14.8K",
+      "kd": "60%",
+      "intent": "Commercial",
+      "cpc": "$15.68"
+    },
+    "beratung seo": {
+      "query": "beratung seo",
+      "title": "beratung seo: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=beratung+seo&db=de",
+      "h1": "beratung seo",
+      "volume": "390",
+      "kd": "17%",
+      "intent": "Informational",
+      "cpc": "$0"
+    },
+    "seo beratung": {
+      "query": "seo beratung",
+      "title": "seo beratung: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+beratung&db=de",
+      "h1": "seo beratung",
+      "volume": "5.4K",
+      "kd": "21%",
+      "intent": "Commercial",
+      "cpc": "$11.61"
+    },
+    "experten seo": {
+      "query": "experten seo",
+      "error": "timeout"
+    },
+    "seo experten": {
+      "query": "seo experten",
+      "title": "seo experten: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+experten&db=de",
+      "h1": "seo experten",
+      "volume": "480",
+      "kd": "45%",
+      "intent": "Informational",
+      "cpc": "$25.85"
+    },
+    "freelancer seo": {
+      "query": "freelancer seo",
+      "title": "freelancer seo: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=freelancer+seo&db=de",
+      "h1": "freelancer seo",
+      "volume": "720",
+      "kd": "38%",
+      "intent": "Informational",
+      "cpc": "$5.42"
+    },
+    "seo freelancer": {
+      "query": "seo freelancer",
+      "title": "seo freelancer: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+freelancer&db=de",
+      "h1": "seo freelancer",
+      "volume": "3.6K",
+      "kd": "32%",
+      "intent": "Informational",
+      "cpc": "$5.42"
+    },
+    "preise seo": {
+      "query": "preise seo",
+      "title": "preise seo: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=preise+seo&db=de",
+      "h1": "preise seo",
+      "volume": "170",
+      "kd": "11%",
+      "intent": "Informational",
+      "cpc": "$4.53"
+    },
+    "seo preise": {
+      "query": "seo preise",
+      "title": "seo preise: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+preise&db=de",
+      "h1": "seo preise",
+      "volume": "880",
+      "kd": "9%",
+      "intent": "Informational",
+      "cpc": "$3.77"
+    },
+    "seo dusseldorf": {
+      "query": "seo Düsseldorf",
+      "title": "seo Düsseldorf: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+D%C3%BCsseldorf&db=de",
+      "h1": "seo Düsseldorf",
+      "volume": "1.3K",
+      "kd": "10%",
+      "intent": "Commercial",
+      "cpc": "$8.12"
+    },
+    "seo agentur dusseldorf": {
+      "query": "seo agentur Düsseldorf",
+      "title": "seo agentur Düsseldorf: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+agentur+D%C3%BCsseldorf&db=de",
+      "h1": "seo agentur Düsseldorf",
+      "volume": "1.9K",
+      "kd": "26%",
+      "intent": "Commercial",
+      "cpc": "$8.16"
+    },
+    "seo beratung dusseldorf": {
+      "query": "seo beratung Düsseldorf",
+      "title": "seo beratung Düsseldorf: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+beratung+D%C3%BCsseldorf&db=de",
+      "h1": "seo beratung Düsseldorf",
+      "volume": "210",
+      "kd": "20%",
+      "intent": "Commercial",
+      "cpc": "$0"
+    },
+    "seo experten dusseldorf": {
+      "query": "seo experten Düsseldorf",
+      "error": "timeout"
+    },
+    "seo freelancer dusseldorf": {
+      "query": "seo freelancer Düsseldorf",
+      "title": "seo freelancer Düsseldorf: Overview, Keyword Overview",
+      "href": "https://www.semrush.com/analytics/keywordoverview/?q=seo+freelancer+D%C3%BCsseldorf&db=de",
+      "h1": "seo freelancer Düsseldorf",
+      "volume": "170",
+      "kd": "30%",
+      "intent": "Informational",
+      "cpc": "$7.33"
+    }
+  },
+  "rows": [],
+  "warnings": [
+    "Base domain was not provided, so suggested_slug values are relative paths only.",
+    "Tier 3 Rhein-Ruhr locations were intentionally excluded to keep the Semrush run under the 200-query cap.",
+    "Compliance constraints and custom internal linking rules were not provided; standard internal linking assumptions were used."
+  ]
+}

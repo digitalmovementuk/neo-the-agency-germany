@@ -1,0 +1,2835 @@
+{
+  "generatedAt": "2026-04-16T11:20:24.908Z",
+  "seeds": [
+    {
+      "serviceId": "seo",
+      "query": "seo",
+      "type": "base"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo beratung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo audit",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo kosten",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "local seo",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "seo",
+      "query": "technisches seo",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "seo",
+      "query": "ecommerce seo",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "seo",
+      "query": "b2b seo",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Dusseldorf",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Koeln",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Dortmund",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo betreuung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo strategie",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo preise",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo local",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo lokal",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo technisches",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo content",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo relaunch",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo migration",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo b2b",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo ecommerce",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo leadgenerierung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Essen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Duisburg",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Bochum",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Wuppertal",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Bonn",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Muenster",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Moenchengladbach",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Gelsenkirchen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Oberhausen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Hagen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo agentur Hamm",
+      "type": "geo"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo shop",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo immobilien",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo hotel",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo tourismus",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo coaching",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo zahnarzt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo arzt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo anwalt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo steuerberater",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo handwerk",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo photovoltaik",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo maschinenbau",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo saas",
+      "type": "industry"
+    },
+    {
+      "serviceId": "seo",
+      "query": "seo industrie",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads",
+      "type": "base"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads betreuung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads audit",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads kosten",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads landingpage",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads leadgenerierung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads b2b",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads ecommerce",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Dusseldorf",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Koeln",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Dortmund",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads beratung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads strategie",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads preise",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads remarketing",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads pmax",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads search",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads conversion tracking",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Essen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Duisburg",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Bochum",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Wuppertal",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Bonn",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Muenster",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Moenchengladbach",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Gelsenkirchen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Oberhausen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Hagen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads agentur Hamm",
+      "type": "geo"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads shop",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads immobilien",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads hotel",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads tourismus",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads coaching",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads zahnarzt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads arzt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads anwalt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads steuerberater",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads handwerk",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads photovoltaik",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads maschinenbau",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads saas",
+      "type": "industry"
+    },
+    {
+      "serviceId": "google-ads",
+      "query": "google ads industrie",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign",
+      "type": "base"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Dusseldorf",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Koeln",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Dortmund",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "website erstellen lassen",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webentwicklung agentur",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "landingpage agentur",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "wordpress agentur",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "b2b webdesign",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "ecommerce webdesign",
+      "type": "mandatory"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign relaunch",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign landingpage",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign wordpress",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign ux",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign conversion",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign b2b",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign ecommerce",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign website erstellen lassen",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign webentwicklung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign corporate website",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign leadgenerierung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign beratung",
+      "type": "modifier"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Essen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Duisburg",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Bochum",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Wuppertal",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Bonn",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Muenster",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Moenchengladbach",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Gelsenkirchen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Oberhausen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Hagen",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign agentur Hamm",
+      "type": "geo"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign shop",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign immobilien",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign hotel",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign tourismus",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign coaching",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign zahnarzt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign arzt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign anwalt",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign steuerberater",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign handwerk",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign photovoltaik",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign maschinenbau",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign saas",
+      "type": "industry"
+    },
+    {
+      "serviceId": "webdesign",
+      "query": "webdesign industrie",
+      "type": "industry"
+    }
+  ],
+  "sources": {
+    "local seo": {
+      "google": [
+        "local seo",
+        "local seo agentur",
+        "local seo rockets",
+        "local seo tool",
+        "local seo agentur berlin",
+        "local seo agentur gmbh",
+        "local seo services",
+        "local seo meaning",
+        "local seo checklist",
+        "local seo course"
+      ],
+      "bing": [
+        "local seo",
+        "local seo perth",
+        "local seo company new jersey",
+        "local seo alm corp",
+        "local seo company local howl",
+        "local seo meaning",
+        "local seo marketing firms",
+        "local seo philippines",
+        "local seo nyc mostly marketing",
+        "local seo services philippines",
+        "local seo agency effective marketer",
+        "local seo seo fox dominate the first page"
+      ],
+      "ddg": []
+    },
+    "seo audit": {
+      "google": [
+        "seo audit",
+        "seo audit tools",
+        "seo audit and website optimization services",
+        "seo audit agentur",
+        "seo report audit",
+        "seo audit free",
+        "seo audit meaning",
+        "seo audit free tool",
+        "seo audit services",
+        "seo audit checker"
+      ],
+      "bing": [
+        "seo audit",
+        "seo audit free",
+        "seo audit tools",
+        "seo audit report",
+        "seo audit online",
+        "seo audit seo fox",
+        "seo audit and website optimization services",
+        "seo audit free tool",
+        "seo auditor",
+        "seo audit checklist",
+        "seo audit tools free",
+        "seo audit seo fox dominate the first page"
+      ],
+      "ddg": []
+    },
+    "technisches seo": {
+      "google": [
+        "technisches seo",
+        "technisches seo kurs"
+      ],
+      "bing": [
+        "technisches seo",
+        "technisches seo erklärung",
+        "technischer seo jobs",
+        "technisches setup",
+        "technisches sekretariat",
+        "technisches service center",
+        "technisches service semler gmbh",
+        "technisches service öbb",
+        "technisches service gratkorn",
+        "technisches service center hager"
+      ],
+      "ddg": []
+    },
+    "seo beratung": {
+      "google": [],
+      "bing": [
+        "seo beratung",
+        "seo beratung berlin",
+        "seo beratung zürich",
+        "seo beratung online",
+        "seo beratung wien",
+        "seo beratung dortmund",
+        "seo beratung münchen",
+        "seo beratung hamburg",
+        "seo beratung düsseldorf",
+        "seo beratung köln",
+        "seo beratung frankfurt",
+        "seo beratung ludwigshafen"
+      ],
+      "ddg": []
+    },
+    "seo kosten": {
+      "google": [
+        "seo kosten",
+        "seo kosten monatlich",
+        "seo kostenlose tools",
+        "seo kostenlos testen",
+        "seo kosten schweiz",
+        "seo kosten google",
+        "seo kosten berechnen",
+        "seo kostenlos check",
+        "kostenlose seo analyse",
+        "kostenlose seo analyse tools"
+      ],
+      "bing": [
+        "seo kosten",
+        "seo kostenlos",
+        "seo kostenlose tools",
+        "seo kostenlos prüfen",
+        "seo kostenlos testen",
+        "seo kosten pro monat",
+        "seo check kostenlos",
+        "seo analyse kostenlos",
+        "kostenlose seo analyse",
+        "chat seo kostenlos"
+      ],
+      "ddg": []
+    },
+    "seo agentur Dusseldorf": {
+      "google": [],
+      "bing": [
+        "seo agentur düsseldorf"
+      ],
+      "ddg": []
+    },
+    "ecommerce seo": {
+      "google": [
+        "ecommerce seo",
+        "ecommerce seo agency",
+        "ecommerce seo course",
+        "ecommerce seo checklist",
+        "ecommerce seo strategies",
+        "ecommerce seo jobs",
+        "ecommerce seo case study",
+        "ecommerce seo meaning",
+        "ecommerce seo interview questions",
+        "ecommerce seo best practices"
+      ],
+      "bing": [
+        "ecommerce seo",
+        "ecommerce seo sydney",
+        "ecommerce seo agency",
+        "ecommerce seo checklist",
+        "ecommerce seo services effective marketer",
+        "ecommerce seo consultant",
+        "ecommerce seo perth",
+        "ecommerce seo services",
+        "ecommerce seo packages uk",
+        "ecommerce seo strategies 2026",
+        "ecommerce seo melbourne",
+        "ecommerce seo agency melbourne"
+      ],
+      "ddg": []
+    },
+    "seo agentur": {
+      "google": [
+        "seo agentur",
+        "seo agentur münchen",
+        "seo agentur hamburg",
+        "seo agentur stuttgart",
+        "seo agentur düsseldorf",
+        "seo agentur wien",
+        "seo agentur köln",
+        "seo agentur zürich",
+        "seo agentur frankfurt",
+        "seo agentur hannover"
+      ],
+      "bing": [
+        "seo agentur",
+        "seo agentur berlin",
+        "seo agentur schweiz",
+        "seo agentur münchen",
+        "seo agentur graz",
+        "seo agentur wien",
+        "seo agentur stuttgart",
+        "seo agentur essen",
+        "seo agentur köln",
+        "seo agentur hamburg",
+        "seo agentur zürich",
+        "seo agentur baden-württemberg"
+      ],
+      "ddg": []
+    },
+    "seo": {
+      "google": [
+        "seoul",
+        "seo",
+        "seoul wetter",
+        "seoul uhrzeit",
+        "seon",
+        "seoul einwohner",
+        "seo in guk",
+        "seoul 1988",
+        "seo bedeutung",
+        "seoul sehenswürdigkeiten"
+      ],
+      "bing": [
+        "seo",
+        "seoul",
+        "seobility",
+        "seo bedeutung",
+        "seoschmiede",
+        "seo check",
+        "seo optimierung",
+        "seoschmiede chatgpt",
+        "seoul korea",
+        "seo in-guk",
+        "seoul uhrzeit",
+        "seobility seo check"
+      ],
+      "ddg": []
+    },
+    "b2b seo": {
+      "google": [
+        "b2b seo",
+        "b2b seo agency",
+        "b2b seo services",
+        "b2b seo strategies",
+        "b2b seo agentur",
+        "b2b seo case study",
+        "b2b seo marketing",
+        "b2b seo company",
+        "b2b seo audit",
+        "b2b seo expert in india"
+      ],
+      "bing": [
+        "b2b seo",
+        "b2b seohan",
+        "b2b seo services",
+        "b2b seo agency",
+        "b2b seo tools",
+        "b2b seo agency in mumbai",
+        "b2b seo agency in india",
+        "b2b seo solutions",
+        "b2b seo marketing techniques",
+        "b2b seo agentur",
+        "b2b seo strategy",
+        "b2b seo strategy 2024"
+      ],
+      "ddg": []
+    },
+    "seo technisches": {
+      "google": [
+        "technisches seo",
+        "technisches seo kurs"
+      ],
+      "bing": [
+        "technisches seo erklärung"
+      ],
+      "ddg": []
+    },
+    "seo local": {
+      "google": [
+        "seo locale",
+        "seo locale montgomeryville",
+        "seo locale llc",
+        "seo locale reviews",
+        "seo locale glassdoor",
+        "seo local srl",
+        "seo local que es",
+        "seo local google",
+        "google maps local seo",
+        "local seo 2025"
+      ],
+      "bing": [
+        "seo local",
+        "seo local google",
+        "seo local que es",
+        "seo local pack",
+        "seo local en barquisimeto",
+        "seo local granada",
+        "seo local valencia",
+        "seo local business reviews",
+        "seo local business tips",
+        "seo local business audit",
+        "seo local business ranking",
+        "seo local business listing"
+      ],
+      "ddg": []
+    },
+    "seo relaunch": {
+      "google": [
+        "seo relaunch",
+        "seo relaunch betreuung",
+        "seo relaunch beratung",
+        "seo relaunch checkliste",
+        "seo relaunch begleitung",
+        "seo website relaunch"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "seo content": {
+      "google": [
+        "seo content",
+        "seo content writer",
+        "seo content jobs",
+        "seo content manager",
+        "seo content manager gehalt",
+        "seo content manager jobs",
+        "seo content marketing",
+        "seo content machine",
+        "seo content creator",
+        "seo content template"
+      ],
+      "bing": [
+        "seo content",
+        "seo content marketing",
+        "seo content writer",
+        "seo content writing",
+        "seo content optimization tool",
+        "seo content meaning",
+        "seo content machine",
+        "seo content strategy",
+        "seo content checker",
+        "seo content score checker",
+        "seo content writer jobs",
+        "seo content writing course"
+      ],
+      "ddg": []
+    },
+    "seo agentur Koeln": {
+      "google": [
+        "seo agentur koeln",
+        "seo agentur köln sephirotec gmbh"
+      ],
+      "bing": [
+        "seo agentur köln"
+      ],
+      "ddg": []
+    },
+    "seo preise": {
+      "google": [
+        "seo preise",
+        "seo preise bamberg",
+        "seo preise schweiz",
+        "preise seo optimierung",
+        "seo agentur preise",
+        "seo hallstadt preise",
+        "seo pakete preise",
+        "seo texte preise",
+        "yoast seo preise",
+        "google seo preise"
+      ],
+      "bing": [
+        "seo preise",
+        "seo preise agentur",
+        "seo priser",
+        "seo priset"
+      ],
+      "ddg": []
+    },
+    "seo lokal": {
+      "google": [
+        "seo lokal adalah",
+        "local seo",
+        "seo lokal düsseldorf",
+        "seo lokalisierung",
+        "seo lokalne",
+        "lokales seo hannover",
+        "lokale seo optimierung",
+        "lokale seo agentur",
+        "lokales seo verbessern",
+        "lokales seo basel"
+      ],
+      "bing": [
+        "seo lokal",
+        "seo lokalne",
+        "seo lokal adalah",
+        "seo local",
+        "seo local google",
+        "seo local que es",
+        "seo local pack",
+        "seo local en barquisimeto",
+        "seo local granada",
+        "seo local business reviews"
+      ],
+      "ddg": []
+    },
+    "seo strategie": {
+      "google": [
+        "seo strategie",
+        "seo strategie bedeutung",
+        "seo strategie beispiel",
+        "seo strategie entwickeln",
+        "seo strategie 2025",
+        "seo strategie taktik und technik",
+        "seo strategie workshop",
+        "seo strategies pdf",
+        "seo strategie taktik und technik online marketing mittels effektiver suchmaschinenoptimierung",
+        "seo strategie schweiz"
+      ],
+      "bing": [
+        "seo strategie",
+        "seo strategies meaning",
+        "seo strategies 2025",
+        "seo strategieberatung",
+        "seo strategies for prestashop ecommerce",
+        "seo strategies and techniques",
+        "seo strategies 2024",
+        "seo strategie betekenis",
+        "seo strategies for mobile devices",
+        "seo strategies for digital marketing"
+      ],
+      "ddg": []
+    },
+    "seo agentur Dortmund": {
+      "google": [
+        "seo agentur dortmund",
+        "sumax seo agentur dortmund"
+      ],
+      "bing": [
+        "seo agentur dortmund"
+      ],
+      "ddg": []
+    },
+    "seo betreuung": {
+      "google": [],
+      "bing": [
+        "seo betreuung",
+        "seo betreuung agentur",
+        "seo beratung",
+        "seo beratung berlin",
+        "seo beratung zürich",
+        "seo beratung online",
+        "seo beratung wien",
+        "seo beratung dortmund",
+        "seo beratung münchen",
+        "seo beratung hamburg"
+      ],
+      "ddg": []
+    },
+    "seo agentur Muenster": {
+      "google": [
+        "seo agentur münster"
+      ],
+      "bing": [
+        "seo agentur münster"
+      ],
+      "ddg": []
+    },
+    "seo agentur Bonn": {
+      "google": [
+        "seo agentur bonn",
+        "n1 seo agentur bonn"
+      ],
+      "bing": [
+        "seo agentur bonn"
+      ],
+      "ddg": []
+    },
+    "seo agentur Bochum": {
+      "google": [
+        "seo agentur bochum"
+      ],
+      "bing": [
+        "seo agentur bochum"
+      ],
+      "ddg": []
+    },
+    "seo leadgenerierung": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "seo agentur Wuppertal": {
+      "google": [
+        "seo agentur wuppertal"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "seo agentur Duisburg": {
+      "google": [
+        "seo agentur duisburg"
+      ],
+      "bing": [
+        "seo agentur duisburg"
+      ],
+      "ddg": []
+    },
+    "seo ecommerce": {
+      "google": [
+        "seo ecommerce",
+        "seo ecommerce 2025",
+        "seo meaning ecommerce",
+        "seo ecommerce strategies",
+        "seo ecommerce services",
+        "seo ecommerce course",
+        "seo jobs ecommerce",
+        "seo ecommerce reddit",
+        "seo ecommerce category pages",
+        "seo ecommerce website"
+      ],
+      "bing": [
+        "seo ecommerce",
+        "seo ecommerce que es",
+        "seo para ecommerce",
+        "ecommerce seo services effective marketer",
+        "ecommerce seo rankstar io",
+        "ecommerce seo rankstar io 🐙",
+        "seo consultant ecommerce",
+        "seo for ecommerce brands",
+        "seo for ecommerce company malaysia"
+      ],
+      "ddg": []
+    },
+    "seo migration": {
+      "google": [
+        "seo migration",
+        "seo migration checklist",
+        "seo migration services",
+        "seo migration.agency",
+        "seo migration plan",
+        "seo migration tool",
+        "seo migration strategy",
+        "seo migration meaning",
+        "seo migration guide",
+        "seo domain migration"
+      ],
+      "bing": [
+        "seo migration",
+        "seo migration checklist",
+        "seo migration dg7",
+        "seo migration plan",
+        "seo migration guide",
+        "seo migration services"
+      ],
+      "ddg": []
+    },
+    "seo b2b": {
+      "google": [
+        "seo b2b",
+        "seo b2b vs b2c",
+        "seo b2b saas",
+        "seo b2b mexico",
+        "b2b seo agentur",
+        "b2b seo case study",
+        "seo für b2b",
+        "b2b seo agency",
+        "b2b seo services",
+        "b2b seo strategy"
+      ],
+      "bing": [
+        "seo b2b",
+        "seo b2 fuse",
+        "b2b seo agentur",
+        "b2b white hat seo",
+        "b2b seo services",
+        "b2b seo byrå stockholm"
+      ],
+      "ddg": []
+    },
+    "seo agentur Essen": {
+      "google": [
+        "seo agentur essen"
+      ],
+      "bing": [
+        "seo agentur essen",
+        "seo agentur esslingen"
+      ],
+      "ddg": []
+    },
+    "seo shop": {
+      "google": [
+        "seo shopware",
+        "seo shopify",
+        "seo shopware 6",
+        "seo shopify app",
+        "seo shopify tutorial",
+        "seo shopping",
+        "seo shops",
+        "woocommerce vs shopify seo",
+        "seo shopify plugin",
+        "seo shopware 6 optimieren"
+      ],
+      "bing": [
+        "seo shopify",
+        "seo shop",
+        "seo shop login",
+        "seo shopware",
+        "seo shopify app",
+        "seo shopee tool",
+        "seo shoptet",
+        "seo shopify store",
+        "yoast seo shopify",
+        "seo online shop"
+      ],
+      "ddg": []
+    },
+    "seo agentur Moenchengladbach": {
+      "google": [
+        "seo agentur mönchengladbach"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "seo coaching": {
+      "google": [
+        "seo coaching",
+        "seo coaching online",
+        "seo coaching unternehmen",
+        "seo coaching in zirakpur",
+        "seo coaching in jaipur",
+        "seo coaching in indore",
+        "seo coaching in yamuna vihar",
+        "seo coaching for creatives",
+        "seo coaching cape town",
+        "coaching seo individuel"
+      ],
+      "bing": [
+        "seo coaching"
+      ],
+      "ddg": []
+    },
+    "seo tourismus": {
+      "google": [
+        "seo tourismus"
+      ],
+      "bing": [
+        "seo tourisme"
+      ],
+      "ddg": []
+    },
+    "seo agentur Hamm": {
+      "google": [
+        "seo agentur hamm"
+      ],
+      "bing": [
+        "seo agentur hamburg"
+      ],
+      "ddg": []
+    },
+    "seo immobilien": {
+      "google": [
+        "seo immobilienmakler",
+        "seo immobilien",
+        "seo agentur immobilienmakler"
+      ],
+      "bing": [
+        "seo immobilienmakler",
+        "seo immobilier"
+      ],
+      "ddg": []
+    },
+    "seo agentur Oberhausen": {
+      "google": [
+        "seo agentur oberhausen"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "seo hotel": {
+      "google": [
+        "seo hotels",
+        "seo hotel machakos",
+        "seo hotel machakos contacts",
+        "seo hotel meaning",
+        "seo hotel photos",
+        "seo hotel prices",
+        "seo hotel reviews",
+        "seo hotel location",
+        "seo hotel machakos location",
+        "seo hotel machakos menu"
+      ],
+      "bing": [
+        "seo hotel machakos",
+        "seo hotel",
+        "seo hotel machakos contacts",
+        "seo hotel machakos rates",
+        "seo hotel machakos address",
+        "seo hotel machakos location",
+        "seo hotel machakos google reviews",
+        "seo for hotel company malaysia",
+        "hotel seo agency malaysia",
+        "best hotel seo agency malaysia"
+      ],
+      "ddg": []
+    },
+    "seo agentur Gelsenkirchen": {
+      "google": [
+        "seo agentur gelsenkirchen"
+      ],
+      "bing": [
+        "seo agentur gelsenkirchen"
+      ],
+      "ddg": []
+    },
+    "seo agentur Hagen": {
+      "google": [],
+      "bing": [
+        "seo agentur hagen"
+      ],
+      "ddg": []
+    },
+    "seo zahnarzt": {
+      "google": [
+        "seo zahnarzt",
+        "seo zahnarztpraxis",
+        "hong beom seo zahnarzt"
+      ],
+      "bing": [
+        "seo zahnarzt"
+      ],
+      "ddg": []
+    },
+    "seo photovoltaik": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "seo handwerk": {
+      "google": [
+        "seo handwerker",
+        "seo küchenhandwerk"
+      ],
+      "bing": [
+        "seo handwerk"
+      ],
+      "ddg": []
+    },
+    "seo maschinenbau": {
+      "google": [
+        "seo maschinenbau"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "seo steuerberater": {
+      "google": [
+        "seo steuerberater"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "seo anwalt": {
+      "google": [
+        "seo anwalt",
+        "seo anwaltskanzlei"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "seo arzt": {
+      "google": [
+        "seo arztpraxis",
+        "seo arzt"
+      ],
+      "bing": [
+        "seo ärzte",
+        "seo article",
+        "seo artinya",
+        "seo artikel",
+        "seo article writing",
+        "seo article checker",
+        "seo article ai",
+        "seo articles samples for seo audit",
+        "seo articles samples for seo tools",
+        "seo articles samples for seo trends",
+        "seo articles samples for seo strategy",
+        "seo articles samples for link building"
+      ],
+      "ddg": []
+    },
+    "google ads": {
+      "google": [
+        "google ads",
+        "google ads login",
+        "google adsense",
+        "google ads kosten",
+        "google ads freelancer",
+        "google ads transparency center",
+        "google ads konto",
+        "google ads manager",
+        "google adsense login",
+        "google ads keyword planner"
+      ],
+      "bing": [
+        "google ads",
+        "google ads login",
+        "google adsense",
+        "google ads konto",
+        "google ads editor",
+        "google ads kosten",
+        "google ads library",
+        "google ads keyword planner",
+        "google ads manager",
+        "google ads transparency center",
+        "google ads editor download",
+        "google adsense login"
+      ],
+      "ddg": []
+    },
+    "seo saas": {
+      "google": [
+        "seo saas",
+        "seo saas tool",
+        "seo saas agency",
+        "seo saas reddit",
+        "saas seo strategies",
+        "saas seo strategy",
+        "saas seo guide",
+        "saas seo jobs",
+        "saas seo ai",
+        "seo b2b saas"
+      ],
+      "bing": [
+        "seo saas",
+        "seo sas",
+        "seo saskatoon",
+        "seo saari",
+        "seo seasonal basics",
+        "seo saarbrücken",
+        "seo seasoned equity offering",
+        "seo seasonal routine",
+        "saas seo agency effective marketer"
+      ],
+      "ddg": []
+    },
+    "seo industrie": {
+      "google": [
+        "seo industry",
+        "seo für die industrie",
+        "seo pour entreprises industrielles",
+        "consultant seo industrie",
+        "agence seo industrie"
+      ],
+      "bing": [
+        "seo industrie 24",
+        "seo industry",
+        "seo industry news",
+        "seo industry worth"
+      ],
+      "ddg": []
+    },
+    "google ads betreuung": {
+      "google": [
+        "google ads betreuung",
+        "google ads betreuung kosten",
+        "google ads betreuung wien"
+      ],
+      "bing": [
+        "google ads betreuung",
+        "google ads beratung"
+      ],
+      "ddg": []
+    },
+    "google ads b2b": {
+      "google": [
+        "google ads b2b",
+        "google ads b2b lead generation",
+        "google ads b2b strategy",
+        "google ads b2b targeting",
+        "google ads b2b reddit",
+        "google ads b2b optimization",
+        "google ads b2b saas",
+        "google ads b2b ctr benchmark",
+        "google ads for b2b marketing",
+        "google ads für b2b"
+      ],
+      "bing": [
+        "google ads b2b",
+        "google ads b2b benchmark ctr"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Koeln": {
+      "google": [],
+      "bing": [
+        "google ads agentur köln",
+        "google ads agentur berlin",
+        "google ads agentur wien",
+        "google ads agentur düsseldorf",
+        "agentur für google ads",
+        "google ads agentur hamburg",
+        "google ads agentur frankfurt",
+        "google ads agentur preise",
+        "beste google ads agentur",
+        "google ads agentur siegburg",
+        "google ads agentur münster",
+        "google ads agentur münchen"
+      ],
+      "ddg": []
+    },
+    "google ads kosten": {
+      "google": [
+        "google ads kosten",
+        "google ads kostenlos",
+        "google ads kosten pro klick",
+        "google ads kosten rechner",
+        "google ads kosten schweiz",
+        "google ads kosten pro monat",
+        "google ads kosten senken",
+        "google ads kostenlose beratung",
+        "google ads kostenlos lernen",
+        "google ads kosten buchen skr03"
+      ],
+      "bing": [
+        "google ads kosten",
+        "google ads kosten pro monat",
+        "google ads kostenlos",
+        "google ads kosten rechner",
+        "google ads kostenlos einrichten",
+        "google ads kosten pro klick",
+        "hoeveel kosten google ads per maand",
+        "google ads campagne kosten overzicht"
+      ],
+      "ddg": []
+    },
+    "google ads leadgenerierung": {
+      "google": [
+        "google ads experte leadgenerierung"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "google ads agentur Dusseldorf": {
+      "google": [],
+      "bing": [
+        "google ads agentur düsseldorf",
+        "google ads agentur hamburg",
+        "google ads agentur köln",
+        "agentur für google ads",
+        "google ads agentur berlin",
+        "google ads agentur frankfurt",
+        "google ads agentur wien",
+        "google ads agentur münchen",
+        "google ads agentur zürich",
+        "google ads agentur münster",
+        "google ads agentur preise",
+        "beste google ads agentur"
+      ],
+      "ddg": []
+    },
+    "google ads agentur": {
+      "google": [
+        "google ads agentur",
+        "google ads agentur preise",
+        "google ads agentur stuttgart",
+        "google ads agentur berlin",
+        "google ads agentur münchen",
+        "google ads agentur deutschland",
+        "google ads agentur wien",
+        "google ads agentur bremen",
+        "google ads agentur hamburg",
+        "google ads agentur luzern"
+      ],
+      "bing": [
+        "google ads agentur",
+        "google ads agentur braunschweig",
+        "google ads agentur wien",
+        "google ads agentur kosten",
+        "google ads agentur preise",
+        "google ads agentur zürich",
+        "google ads agentur koblenz",
+        "google ads agentur berlin",
+        "google ads agentur stuttgart",
+        "google ads agentur münster",
+        "google ads agentur nürnberg",
+        "google ads agentur wolfsburg"
+      ],
+      "ddg": []
+    },
+    "google ads landingpage": {
+      "google": [
+        "google ads landingpage"
+      ],
+      "bing": [
+        "google ads landing page",
+        "google ads landingpage ändern",
+        "google ads landing page examples",
+        "google ads landing page is not supported",
+        "google ads landing page report",
+        "google ads landing page requirements"
+      ],
+      "ddg": []
+    },
+    "google ads ecommerce": {
+      "google": [
+        "google ads ecommerce",
+        "google ads ecommerce mistakes",
+        "google ads ecommerce strategy",
+        "google ads ecommerce course",
+        "google ads ecommerce reddit",
+        "ecommerce google ads",
+        "google ads ecommerce tracking",
+        "google ads ecommerce agency",
+        "google ads ecommerce case study",
+        "google ads ecommerce alan valdez"
+      ],
+      "bing": [
+        "google ads ecommerce strategy",
+        "google ads ecommerce",
+        "google ads para ecommerce"
+      ],
+      "ddg": []
+    },
+    "google ads audit": {
+      "google": [
+        "google ads audit",
+        "google ads audit checklist 2025",
+        "google ads audit script",
+        "google ads audit ai",
+        "google ads audit cost",
+        "google ads audit logs",
+        "google ads audit checklist",
+        "google ads audit template",
+        "google ads audit tool",
+        "google ads audit free"
+      ],
+      "bing": [
+        "google ads audit",
+        "google ads audit template",
+        "google ads audit agency",
+        "google ads audit service",
+        "google ads audit sample",
+        "google ads audit checklist",
+        "google ads audit report gig fiverr"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Essen": {
+      "google": [
+        "google ads agentur essen"
+      ],
+      "bing": [
+        "agentur für google ads",
+        "google ads agentur berlin",
+        "google ads agentur hamburg",
+        "google ads agentur düsseldorf",
+        "google ads agentur wien",
+        "google ads agentur köln",
+        "google ads agentur frankfurt",
+        "google ads agentur münchen",
+        "google ads agentur preise",
+        "beste google ads agentur",
+        "google ads agentur münster",
+        "google ads agentur zürich"
+      ],
+      "ddg": []
+    },
+    "google ads beratung": {
+      "google": [
+        "google ads beratung",
+        "google ads beratungsgespräch",
+        "google ads beratungstermin",
+        "google ads kostenlose beratung",
+        "jana lohse google ads beratung"
+      ],
+      "bing": [
+        "google ads beratung",
+        "google ads betreuung"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Dortmund": {
+      "google": [
+        "google ads agentur dortmund"
+      ],
+      "bing": [
+        "google ads agentur dortmund",
+        "google ads agentur hamburg",
+        "agentur für google ads",
+        "google ads agentur münchen",
+        "google ads agentur düsseldorf",
+        "google ads agentur münster",
+        "google ads agentur berlin",
+        "google ads agentur wien",
+        "google ads agentur köln",
+        "google ads agentur zürich",
+        "google ads agentur stuttgart",
+        "beste google ads agentur"
+      ],
+      "ddg": []
+    },
+    "google ads pmax": {
+      "google": [
+        "google ads pmax",
+        "google ads pmax image sizes",
+        "google ads pmax specs",
+        "google ads pmax scripts",
+        "google ads pmax negative keywords",
+        "google ads pmax logo size",
+        "google ads pmax creative sizes",
+        "google ads pmax assets",
+        "google ads pmax logo",
+        "google ads pmax optimization"
+      ],
+      "bing": [
+        "google ads pmax",
+        "google ads pmax assets",
+        "google ads max",
+        "google ads max kampagne",
+        "google ads max performance",
+        "google ads maximize conversions",
+        "campagne pmax google ads"
+      ],
+      "ddg": []
+    },
+    "google ads search": {
+      "google": [
+        "google ads search certification",
+        "google ads search",
+        "google ads search max",
+        "google ads search console",
+        "google ads search words",
+        "google ads search specs",
+        "google ads search certification answers",
+        "google ads search assessment answers",
+        "google ads search campaign",
+        "google ads search assessment"
+      ],
+      "bing": [
+        "google ads search",
+        "google ads search certification",
+        "google ads search campaign",
+        "google ads search assessment answers",
+        "google ads search assessment",
+        "google ads search skillshop",
+        "google ads search certification study guide",
+        "google ads search professional certification",
+        "google ads search certification quizlet",
+        "google ads search certification free",
+        "google ads search terms negative keywords",
+        "google ads search certification skillshop"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Duisburg": {
+      "google": [
+        "google ads agentur duisburg"
+      ],
+      "bing": [
+        "google ads agentur düsseldorf",
+        "google ads agentur hamburg",
+        "google ads agentur köln",
+        "agentur für google ads",
+        "google ads agentur siegburg",
+        "google ads agentur wien",
+        "google ads agentur münster",
+        "google ads agentur berlin",
+        "google ads agentur wiesbaden",
+        "google ads agentur münchen",
+        "google ads agentur zürich",
+        "google ads agentur nürnberg"
+      ],
+      "ddg": []
+    },
+    "google ads strategie": {
+      "google": [
+        "google ads strategies",
+        "google ads strategie",
+        "google ads strategies 2025",
+        "google ads strategies for small businesses",
+        "google ads strategies reddit",
+        "google ads strategies 2024",
+        "google ads campaign strategies",
+        "google ads best strategies",
+        "google ads portfolio strategie",
+        "low budget google ads strategies"
+      ],
+      "bing": [
+        "google ads strategies",
+        "google ads strategy 2025",
+        "google ads strategy template",
+        "google ads strategy development",
+        "google ads strategy for new businesses",
+        "google ads strategy for a logistics company"
+      ],
+      "ddg": []
+    },
+    "google ads preise": {
+      "google": [
+        "google ads preise",
+        "google ads agentur preise",
+        "google ads keyword preise",
+        "preiserweiterungen google ads"
+      ],
+      "bing": [
+        "google ads preise",
+        "google ads preisliste",
+        "google ads priser",
+        "google ads ru preise"
+      ],
+      "ddg": []
+    },
+    "google ads conversion tracking": {
+      "google": [
+        "google ads conversion tracking",
+        "google ads conversion tracking einrichten",
+        "google ads conversion tracking testen",
+        "google ads conversion tracking shopify",
+        "google ads conversion tracking gtm",
+        "google ads conversion tracking code",
+        "server side conversion tracking google ads",
+        "google ads conversion tracking api",
+        "google ads conversion tracking-id",
+        "google ads conversion tracking deutsch"
+      ],
+      "bing": [
+        "google ads conversion tracking",
+        "google ads conversion tracking id",
+        "google ads conversion tracking setup",
+        "google ads conversion tracking tag",
+        "google ads conversion tracking einrichten",
+        "google ads conversion tracking datenschutz",
+        "google ads conversion tracking shopify",
+        "google ads conversion tracking wordpress",
+        "google ads conversion tracking tag manager"
+      ],
+      "ddg": []
+    },
+    "google ads remarketing": {
+      "google": [
+        "google ads remarketing",
+        "google ads remarketing tag",
+        "google ads remarketing best practices",
+        "google ads remarketing pixel",
+        "google ads remarketing tag gtm",
+        "google ads remarketing datenschutzerklärung",
+        "google ads remarketing gtm",
+        "google ads remarketing kampagne",
+        "google ads remarketing conversion id",
+        "google ads remarketing audience size"
+      ],
+      "bing": [
+        "google ads remarketing",
+        "google ads remarketing tag",
+        "google ads remarketing campaigns",
+        "google ads remarketing használata",
+        "google ads remarketing conversion id",
+        "google ads dynamic remarketing",
+        "google ads criar remarketing",
+        "google remarketing ads examples"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Bochum": {
+      "google": [
+        "google.ads.agentur bochum"
+      ],
+      "bing": [
+        "agentur für google ads",
+        "google ads agentur berlin",
+        "google ads agentur frankfurt",
+        "google ads agentur köln",
+        "google ads agentur münchen",
+        "google ads agentur wien",
+        "google ads agentur siegburg",
+        "google ads agentur zürich",
+        "google ads agentur düsseldorf",
+        "agentur für arbeit bochum email",
+        "google ads agentur preise",
+        "agentur für arbeit bochum mail"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Bonn": {
+      "google": [
+        "google ads agentur bonn"
+      ],
+      "bing": [
+        "google ads agentur köln",
+        "agentur für google ads",
+        "google ads agentur berlin",
+        "google ads agentur wien",
+        "google ads agentur stuttgart",
+        "google ads agentur hamburg",
+        "google ads agentur münster",
+        "google ads agentur münchen",
+        "beste google ads agentur",
+        "google ads agentur zürich",
+        "google ads agentur siegburg",
+        "google ads agentur preise"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Gelsenkirchen": {
+      "google": [
+        "google ads agentur gelsenkirchen"
+      ],
+      "bing": [
+        "google ads agentur berlin",
+        "agentur für google ads",
+        "google ads agentur zürich",
+        "google ads agentur hamburg",
+        "google ads agentur münchen",
+        "google ads agentur wien",
+        "google ads agentur düsseldorf",
+        "google ads agentur köln",
+        "google ads agentur preise",
+        "google ads agentur frankfurt",
+        "beste google ads agentur",
+        "google ads agentur siegburg"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Moenchengladbach": {
+      "google": [
+        "google ads agentur mönchengladbach"
+      ],
+      "bing": [
+        "google ads agentur münchen",
+        "google ads agentur münster",
+        "google ads agentur hamburg",
+        "agentur für google ads",
+        "google ads agentur düsseldorf",
+        "google ads agentur berlin",
+        "google ads agentur zürich",
+        "google ads agentur wien",
+        "google ads agentur köln",
+        "google ads agentur preise",
+        "google ads agentur nürnberg",
+        "google ads agentur stuttgart"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Wuppertal": {
+      "google": [
+        "google ads agentur wuppertal"
+      ],
+      "bing": [
+        "google ads agentur wien",
+        "google ads agentur hamburg",
+        "google ads agentur stuttgart",
+        "agentur für google ads",
+        "google ads agentur münchen",
+        "google ads agentur düsseldorf",
+        "google ads agentur berlin",
+        "agentur für arbeit wuppertal",
+        "agentur für arbeit wuppertal email",
+        "google ads agentur köln",
+        "google ads agentur preise",
+        "agentur für arbeit wuppertal kontakt"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Oberhausen": {
+      "google": [],
+      "bing": [
+        "google ads agentur zürich",
+        "agentur für google ads",
+        "google ads agentur frankfurt",
+        "google ads agentur hamburg",
+        "google ads agentur berlin",
+        "google ads agentur wien",
+        "google ads agentur münchen",
+        "google ads agentur düsseldorf",
+        "google ads agentur köln",
+        "google ads agentur preise",
+        "google ads agentur wiesbaden",
+        "google ads agentur münster"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Muenster": {
+      "google": [
+        "google ads agentur münster"
+      ],
+      "bing": [
+        "google ads agentur münster",
+        "google ads agentur münchen",
+        "agentur für google ads",
+        "google ads agentur düsseldorf",
+        "google ads agentur wien",
+        "google ads agentur köln",
+        "google ads agentur preise",
+        "beste google ads agentur",
+        "google ads agentur berlin",
+        "google ads agentur zürich",
+        "google ads agentur meckenheim",
+        "google ads agentur königswinter"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Hamm": {
+      "google": [],
+      "bing": [
+        "google ads agentur hamburg",
+        "google ads agentur stuttgart",
+        "agentur für google ads",
+        "agentur für arbeit hamm email",
+        "google ads agentur münster",
+        "google ads agentur münchen",
+        "agentur für arbeit hamm adresse",
+        "agentur für arbeit hamm",
+        "google ads agentur frankfurt",
+        "google ads agentur berlin",
+        "google ads agentur düsseldorf",
+        "agentur für arbeit hamm kontakt"
+      ],
+      "ddg": []
+    },
+    "google ads shop": {
+      "google": [
+        "google ads shopify",
+        "google ads shopping",
+        "google ads shopify conversion tracking",
+        "google ads shopify app",
+        "google ads shopping kampagne",
+        "google ads shopify tracking",
+        "google ads shopping feed",
+        "google ads shopware",
+        "google ads shopping_performance_view",
+        "google ads shopping vs pmax"
+      ],
+      "bing": [
+        "google ads shopping",
+        "google ads shopify",
+        "google ads shopee",
+        "google ads shopping campaign",
+        "google ads shopping feed",
+        "google ads shopping certification",
+        "google ads shopify direct connection",
+        "shopify google ads conversion tracking"
+      ],
+      "ddg": []
+    },
+    "google ads agentur Hagen": {
+      "google": [],
+      "bing": [
+        "google ads agentur hamburg",
+        "google ads agentur köln",
+        "agentur für google ads",
+        "google ads agentur stuttgart",
+        "google ads agentur zürich",
+        "google ads agentur münster",
+        "google ads agentur münchen",
+        "google ads agentur meckenheim",
+        "google ads agentur wien",
+        "google ads agentur düsseldorf",
+        "google ads agentur berlin",
+        "beste google ads agentur"
+      ],
+      "ddg": []
+    },
+    "google ads tourismus": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "google ads photovoltaik": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "google ads anwalt": {
+      "google": [
+        "google ads anwalt"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "google ads handwerk": {
+      "google": [
+        "google ads handwerker"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "google ads arzt": {
+      "google": [
+        "google ads arztpraxis"
+      ],
+      "bing": [
+        "google ads article"
+      ],
+      "ddg": []
+    },
+    "google ads coaching": {
+      "google": [
+        "google ads coaching",
+        "google ads coaching near me",
+        "google ads for coaching business"
+      ],
+      "bing": [
+        "google ads coaching"
+      ],
+      "ddg": []
+    },
+    "google ads hotel": {
+      "google": [
+        "google ads hotel",
+        "google ads hotel campaigns",
+        "google ads hotel center",
+        "google ads hotel campaign",
+        "google hotel ads login",
+        "google hotel ads geld verdienen",
+        "google hotel ads logo",
+        "google hotel ads api",
+        "google hotel ads partners",
+        "google hotel ads metasearch"
+      ],
+      "bing": [
+        "google ads hotel",
+        "google ads hotel review scam",
+        "google ads hotline",
+        "google ads hotline deutschland",
+        "google hotel ads login",
+        "google hotel price ads",
+        "google hotel ads organic",
+        "que es google hotel ads"
+      ],
+      "ddg": []
+    },
+    "google ads immobilien": {
+      "google": [
+        "google ads immobilienmakler",
+        "google ads immobilien"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "google ads steuerberater": {
+      "google": [
+        "google ads steuerberater"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "google ads zahnarzt": {
+      "google": [
+        "google ads zahnarzt"
+      ],
+      "bing": [
+        "google ads zahnarzt verboten österreich"
+      ],
+      "ddg": []
+    },
+    "webdesign agentur Koeln": {
+      "google": [
+        "webdesign agentur köln"
+      ],
+      "bing": [
+        "webdesign agentur köln"
+      ],
+      "ddg": []
+    },
+    "webdesign agentur Dortmund": {
+      "google": [
+        "webdesign agentur dortmund"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign agentur": {
+      "google": [
+        "webdesign agentur",
+        "webdesign agentur hamburg",
+        "webdesign agentur berlin",
+        "webdesign agentur in der nähe",
+        "webdesign agentur frankfurt",
+        "webdesign agentur wallenhorst",
+        "webdesign agentur münchen",
+        "webdesign agentur köln",
+        "webdesign agentur nürnberg",
+        "webdesign agentur braunschweig"
+      ],
+      "bing": [
+        "webdesign agentur",
+        "webdesign agentur wien",
+        "webdesign agentur berlin",
+        "webdesign agentur in der nähe",
+        "webdesign agentur zürich",
+        "webdesign agentur linz",
+        "webdesign agentur deutschland",
+        "webdesign agentur wordpress",
+        "webdesign agentur bremen",
+        "webdesign agentur bielefeld",
+        "webdesign agentur frankfurt",
+        "webdesign agentur stuttgart"
+      ],
+      "ddg": []
+    },
+    "website erstellen lassen": {
+      "google": [
+        "website erstellen lassen",
+        "website erstellen lassen kosten",
+        "website erstellen lassen ki",
+        "website erstellen lassen freelancer",
+        "website erstellen lassen schweiz",
+        "website erstellen lassen günstig",
+        "website erstellen lassen festpreis",
+        "website erstellen lassen berlin",
+        "website erstellen lassen agentur",
+        "website erstellen lassen in der nähe"
+      ],
+      "bing": [
+        "website erstellen lassen",
+        "website erstellen lassen preise",
+        "website erstellen lassen kosten",
+        "website erstellen lassen schweiz",
+        "website erstellen lassen günstig",
+        "website erstellen lassen kostenlos",
+        "website erstellen lassen in der nähe",
+        "website erstellen lassen kiel",
+        "website erstellen lassen in berlin - kg net",
+        "website erstellen lassen frankfurt",
+        "website erstellen lassen in wien - kg net",
+        "website erstellen lassen in salzburg - kg net"
+      ],
+      "ddg": []
+    },
+    "webentwicklung agentur": {
+      "google": [
+        "webentwicklung agentur"
+      ],
+      "bing": [
+        "webentwicklung agentur"
+      ],
+      "ddg": []
+    },
+    "webdesign": {
+      "google": [
+        "webdesign",
+        "webdesigner",
+        "webdesigner ausbildung",
+        "webdesigner jobs",
+        "webdesign in der nähe",
+        "webdesign agentur",
+        "webdesigner gehalt",
+        "webdesign berlin",
+        "webdesign trends 2026",
+        "webdesign hamburg"
+      ],
+      "bing": [
+        "webdesign",
+        "webdesign agentur",
+        "webdesign berlin",
+        "webdesign weeze",
+        "webdesigner ausbildung",
+        "webdesign münchen",
+        "webdesigner in der nähe",
+        "webdesigner gehalt",
+        "webdesigner jobs",
+        "webdesign lernen",
+        "webdesign hamburg",
+        "webdesign konstanz"
+      ],
+      "ddg": []
+    },
+    "google ads maschinenbau": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "google ads industrie": {
+      "google": [
+        "google ads industries",
+        "google local service ads industries"
+      ],
+      "bing": [
+        "google ads industry benchmarks 2024",
+        "google ads industry benchmarks"
+      ],
+      "ddg": []
+    },
+    "google ads saas": {
+      "google": [
+        "google ads saas",
+        "google ads saas reddit",
+        "google ads for saas companies",
+        "google ads para saas",
+        "google ads b2b saas",
+        "google ads specialist b2b saas",
+        "google ads agency for saas",
+        "is google ads considered saas",
+        "saas google ads strategy"
+      ],
+      "bing": [
+        "google ads seasonality adjustments"
+      ],
+      "ddg": []
+    },
+    "webdesign agentur Dusseldorf": {
+      "google": [],
+      "bing": [
+        "webdesign agentur düsseldorf"
+      ],
+      "ddg": []
+    },
+    "landingpage agentur": {
+      "google": [
+        "landingpage agentur",
+        "landingpage agentur für arbeit"
+      ],
+      "bing": [
+        "landingpage agentur"
+      ],
+      "ddg": []
+    },
+    "webdesign relaunch": {
+      "google": [
+        "webdesign relaunch"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign landingpage": {
+      "google": [
+        "webdesign landingpage"
+      ],
+      "bing": [
+        "web design landing page",
+        "web design landing page figma"
+      ],
+      "ddg": []
+    },
+    "b2b webdesign": {
+      "google": [
+        "b2b webdesign"
+      ],
+      "bing": [
+        "b2b web design",
+        "b2b web design agency",
+        "b2b web design firm"
+      ],
+      "ddg": []
+    },
+    "ecommerce webdesign": {
+      "google": [
+        "ecommerce webdesign"
+      ],
+      "bing": [
+        "ecommerce web design",
+        "ecommerce web design services",
+        "ecommerce web design hosting tips",
+        "ecommerce web design hosting plans",
+        "ecommerce web design hosting reviews",
+        "ecommerce web design hosting examples",
+        "ecommerce web design hosting features",
+        "ecommerce web design hosting services",
+        "ecommerce web design hosting providers",
+        "ecommerce web design hosting solutions",
+        "ecommerce web design hosting comparison",
+        "ecommerce web design hosting best practices"
+      ],
+      "ddg": []
+    },
+    "webdesign b2b": {
+      "google": [
+        "webdesign b2b"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "wordpress agentur": {
+      "google": [
+        "wordpress agentur",
+        "wordpress agentur köln",
+        "wordpress agentur hamburg",
+        "wordpress agentur münchen",
+        "wordpress agentur schweiz",
+        "wordpress agentur stuttgart",
+        "wordpress agentur wien",
+        "wordpress agentur hannover",
+        "wordpress agentur frankfurt",
+        "wordpress agentur leipzig"
+      ],
+      "bing": [
+        "wordpress agentur",
+        "wordpress agentur berlin",
+        "wordpress agentur wien",
+        "wordpress agentur schweiz",
+        "wordpress agentur österreich",
+        "wordpress agentur preise",
+        "wordpress agentur zürich",
+        "wordpress agentur elementor",
+        "wordpress agentur hamburg",
+        "wordpress agentur seo",
+        "wordpress agentur theme",
+        "wordpress agentur stuttgart"
+      ],
+      "ddg": []
+    },
+    "webdesign ux": {
+      "google": [
+        "webdesign ux ui",
+        "webdesign ux",
+        "webdesign ux design",
+        "ux webdesign berlin",
+        "ux webdesign agentur berlin",
+        "ux webdesign ausbildung",
+        "webdesign ui ux design",
+        "unterschied webdesign ux design",
+        "ui/ux-webdesign frontend mit cpux-zertifikat"
+      ],
+      "bing": [
+        "web design ux ui",
+        "web design ux",
+        "webdesign uckermark",
+        "webdesign uster",
+        "webdesign cuxhaven",
+        "webdesign agentur zürich ux agency"
+      ],
+      "ddg": []
+    },
+    "webdesign wordpress": {
+      "google": [
+        "webdesign wordpress",
+        "webdesign wordpress münchen",
+        "webdesign wordpress ausbildung",
+        "webdesign wordpress leipzig",
+        "webdesign wordpress berlin",
+        "webdesign wordpress jobs",
+        "webdesign wordpress lernen",
+        "webdesign wordpress thüringen",
+        "webdesign wordpress theme",
+        "webdesign wordpress elementor"
+      ],
+      "bing": [
+        "webdesign wordpress",
+        "webdesign wordpress agentur",
+        "webdesign wordpress hamburg",
+        "web design wordpress theme free download",
+        "webdesign in der nähe altusried wordpress",
+        "webdesign mit wordpress"
+      ],
+      "ddg": []
+    },
+    "webdesign conversion": {
+      "google": [
+        "conversion webdesign"
+      ],
+      "bing": [
+        "web design conventions",
+        "conversion optimiertes webdesign"
+      ],
+      "ddg": []
+    },
+    "webdesign leadgenerierung": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign agentur Duisburg": {
+      "google": [
+        "webdesign agentur duisburg"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign ecommerce": {
+      "google": [
+        "webdesign ecommerce"
+      ],
+      "bing": [
+        "web design ecommerce"
+      ],
+      "ddg": []
+    },
+    "webdesign corporate website": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign agentur Bochum": {
+      "google": [
+        "webdesign agentur bochum"
+      ],
+      "bing": [
+        "webdesign agentur bochum"
+      ],
+      "ddg": []
+    },
+    "webdesign website erstellen lassen": {
+      "google": [],
+      "bing": [
+        "online website erstellen lassen",
+        "eigene website erstellen lassen",
+        "web de website erstellen",
+        "website erstellen lassen kostenlos",
+        "website günstig erstellen lassen",
+        "günstige website erstellen lassen",
+        "website um website zu erstellen",
+        "website professionell erstellen lassen",
+        "eine eigene website erstellen",
+        "einfach eine website erstellen",
+        "günstig webseite erstellen lassen",
+        "eigene website erstellen ideen"
+      ],
+      "ddg": []
+    },
+    "webdesign webentwicklung": {
+      "google": [
+        "webdesign webentwicklung",
+        "webdesign vs webentwicklung",
+        "wolf webentwicklung & webdesign bad homburg"
+      ],
+      "bing": [
+        "webdesign und webentwicklung",
+        "webentwicklung webdesign unterschied"
+      ],
+      "ddg": []
+    },
+    "webdesign beratung": {
+      "google": [
+        "webdesign beratung"
+      ],
+      "bing": [
+        "whdscode.de - webdesign und beratung"
+      ],
+      "ddg": []
+    },
+    "webdesign agentur Essen": {
+      "google": [
+        "webdesign agentur essen"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign agentur Wuppertal": {
+      "google": [
+        "webdesign agentur wuppertal"
+      ],
+      "bing": [
+        "webdesign agentur wuppertal"
+      ],
+      "ddg": []
+    },
+    "webdesign agentur Muenster": {
+      "google": [
+        "webdesign agentur münster"
+      ],
+      "bing": [
+        "webdesign agentur münster"
+      ],
+      "ddg": []
+    },
+    "webdesign immobilien": {
+      "google": [
+        "webdesign immobilienmakler",
+        "webdesign immobilien",
+        "webdesign agentur immobilien",
+        "webdesign agentur immobilienmakler"
+      ],
+      "bing": [
+        "webdesign immobilienmakler"
+      ],
+      "ddg": []
+    },
+    "webdesign hotel": {
+      "google": [
+        "webdesign hotel"
+      ],
+      "bing": [
+        "webdesign hotel"
+      ],
+      "ddg": []
+    },
+    "webdesign agentur Bonn": {
+      "google": [
+        "webdesign agentur bonn"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign agentur Hamm": {
+      "google": [],
+      "bing": [
+        "webdesign agentur hamburg"
+      ],
+      "ddg": []
+    },
+    "webdesign agentur Moenchengladbach": {
+      "google": [
+        "webdesign agentur mönchengladbach"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign shop": {
+      "google": [
+        "webdesign shopify",
+        "webdesign shop",
+        "shopify webdesign bamberg",
+        "shopware webdesign",
+        "shopify webdesign agentur bamberg",
+        "shopify webdesign agentur bayreuth",
+        "webdesign online shop",
+        "webdesign online shops markenbildung 72406 bisingen",
+        "top shopify webdesign agenturen in berlin",
+        "top shopify webdesign agenturen in deutschland"
+      ],
+      "bing": [
+        "webdesign shop online",
+        "web design shop",
+        "web design shropshire",
+        "webdesign und shop software kaufen",
+        "webdesign online shops"
+      ],
+      "ddg": []
+    },
+    "webdesign agentur Oberhausen": {
+      "google": [
+        "webdesign agentur oberhausen"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign agentur Gelsenkirchen": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign agentur Hagen": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign tourismus": {
+      "google": [
+        "webdesign tourismus"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign anwalt": {
+      "google": [
+        "webdesign anwalt",
+        "webdesign anwaltskanzlei"
+      ],
+      "bing": [
+        "webdesign anwälte"
+      ],
+      "ddg": []
+    },
+    "webdesign maschinenbau": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign zahnarzt": {
+      "google": [
+        "webdesign zahnarzt",
+        "webdesign zahnarztpraxis"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign arzt": {
+      "google": [
+        "webdesign arztpraxis",
+        "webdesign arzt",
+        "webdesign arzt berlin",
+        "webdesign für arztpraxen"
+      ],
+      "bing": [
+        "webdesign arzt",
+        "webdesign arztpraxis",
+        "webdesign für arztpraxen"
+      ],
+      "ddg": []
+    },
+    "webdesign photovoltaik": {
+      "google": [],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign coaching": {
+      "google": [
+        "webdesign coaching"
+      ],
+      "bing": [],
+      "ddg": []
+    },
+    "webdesign steuerberater": {
+      "google": [
+        "webdesign steuerberater",
+        "webdesign für steuerberater"
+      ],
+      "bing": [
+        "webdesign steuerberater",
+        "webdesign für steuerberater"
+      ],
+      "ddg": []
+    },
+    "webdesign saas": {
+      "google": [
+        "webdesign saas"
+      ],
+      "bing": [
+        "web design sarasota",
+        "webdesign saarland",
+        "webdesign saarbrücken",
+        "web design saskatoon"
+      ],
+      "ddg": []
+    },
+    "webdesign handwerk": {
+      "google": [
+        "webdesign handwerker",
+        "webdesign handwerker hamburg",
+        "webdesign handwerkskammer",
+        "webdesign für handwerker",
+        "webdesign für handwerker karlsruhe",
+        "webdesign für handwerksbetriebe",
+        "webdesign für handwerker berlin",
+        "webdesign agentur für handwerker"
+      ],
+      "bing": [
+        "webdesign handwerk",
+        "webdesign für handwerker"
+      ],
+      "ddg": []
+    },
+    "webdesign industrie": {
+      "google": [
+        "webdesign industrie",
+        "industrielösung webdesign",
+        "webdesign für industrie"
+      ],
+      "bing": [
+        "web design industry",
+        "web design industry standards"
+      ],
+      "ddg": []
+    }
+  },
+  "selectedRows": 400
+}

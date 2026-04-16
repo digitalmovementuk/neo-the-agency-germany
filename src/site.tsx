@@ -2,12 +2,13 @@ import { useEffect, useRef, useState } from 'react'
 import type { FormEvent, ReactNode } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import clsx from 'clsx'
-import { Link, NavLink, Route, Routes, useLocation } from 'react-router-dom'
+import { Link, NavLink, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import logoBlue from './assets/images/neo-logo-blue.png'
 import logoGrey from './assets/images/neo-logo-grey.png'
 import {
   caseStudies,
   companyFacts,
+  geoServicePages,
   homeFaqs,
   legalPages,
   publishedContact,
@@ -33,6 +34,37 @@ const navigationLinks = [
   { to: '/contact', label: 'Kontakt' },
 ]
 
+const utilityLinks = [{ to: '/sitemap', label: 'Sitemap' }]
+
+const sitemapGroups = [
+  {
+    title: 'Hauptseiten',
+    intro: 'Die wichtigsten Einstiegsseiten für Home, Services, Kontakt und Unternehmenskontext.',
+    links: [
+      { to: '/', label: 'Home' },
+      ...servicePages.map((service) => ({ to: `/${service.slug}`, label: service.pageLabel })),
+      { to: '/about', label: 'About' },
+      { to: '/contact', label: 'Kontakt' },
+    ],
+  },
+  {
+    title: 'Standortseiten',
+    intro: 'Tier-1-Geo-Seiten für Rhein-Ruhr mit direkter Zuordnung zu den Service-Mastern.',
+    links: geoServicePages.map((service) => ({
+      to: `/${service.slug}`,
+      label: service.pageLabel,
+    })),
+  },
+  {
+    title: 'Recht und Utility',
+    intro: 'Pflichtseiten und technische Übersicht für die veröffentlichte Deutschland-Version.',
+    links: [
+      { to: '/sitemap', label: 'Sitemap' },
+      ...legalPages.map((page) => ({ to: `/${page.slug}`, label: page.label })),
+    ],
+  },
+]
+
 export function AppRoutes() {
   return (
     <Routes>
@@ -55,6 +87,18 @@ export function AppRoutes() {
           }
         />
       ))}
+      {geoServicePages.map((service) => (
+        <Route
+          key={service.slug}
+          path={`/${service.slug}`}
+          element={
+            <LayoutPage seo={buildServiceSeo(service)}>
+              <ServiceDetailPage service={service} />
+            </LayoutPage>
+          }
+        />
+      ))}
+      <Route path="/webentwicklung-agentur" element={<Navigate replace to="/webdesign-agentur" />} />
       <Route
         path="/about"
         element={
@@ -68,6 +112,14 @@ export function AppRoutes() {
         element={
           <LayoutPage seo={buildContactSeo()}>
             <ContactPage />
+          </LayoutPage>
+        }
+      />
+      <Route
+        path="/sitemap"
+        element={
+          <LayoutPage seo={buildSitemapSeo()}>
+            <SitemapPage />
           </LayoutPage>
         }
       />
@@ -294,7 +346,7 @@ function Footer({ footerRef }: { footerRef: React.RefObject<HTMLElement | null> 
           <p className="max-w-xl text-sm leading-7 text-white/72">
             Performance-driven agency für Unternehmen, die Nachfrage und Lead-Konversion nicht
             trennen wollen. Diese veröffentlichte Deutschland-Seite fokussiert Paid Ads, SEO und
-            Webentwicklung.
+            Webdesign.
           </p>
           <p className="text-xs uppercase tracking-[0.2em] text-cobalt-soft">
             Service Area: {publishedContact.serviceArea}
@@ -316,6 +368,13 @@ function Footer({ footerRef }: { footerRef: React.RefObject<HTMLElement | null> 
               <li key={page.slug}>
                 <Link className="transition hover:text-white" to={`/${page.slug}`}>
                   {page.label}
+                </Link>
+              </li>
+            ))}
+            {utilityLinks.map((item) => (
+              <li key={item.to}>
+                <Link className="transition hover:text-white" to={item.to}>
+                  {item.label}
                 </Link>
               </li>
             ))}
@@ -365,7 +424,7 @@ function BottomStickyCta() {
         <div>
           <p className="text-xs uppercase tracking-[0.2em] text-cobalt-soft">Ready for growth</p>
           <p className="text-sm text-white/78">
-            Paid Ads, SEO und Webentwicklung als klarer Conversion-Pfad.
+            Google Ads, SEO und Webdesign als klarer Conversion-Pfad.
           </p>
         </div>
         <div className="flex w-full gap-3 sm:w-auto">
@@ -446,13 +505,13 @@ function HomePage() {
                 Digital Performance Marketing
               </p>
               <h1 className="text-balance font-display text-5xl font-semibold leading-[0.94] text-white sm:text-6xl xl:text-7xl">
-                Paid Ads, SEO und Webentwicklung für Unternehmen, die Nachfrage und Conversion
+                Google Ads, SEO und Webdesign für Unternehmen, die Nachfrage und Conversion
                 gemeinsam führen wollen.
               </h1>
               <p className="max-w-2xl text-lg leading-8 text-white/76">
                 NEO verbindet Strategie, Marketing und Software Engineering zu einem klaren
-                Lead-System. Die deutsche Seite fokussiert drei Kernleistungen: Paid Ads, SEO und
-                Webentwicklung mit sauberer CTA-Logik.
+                Lead-System. Die deutsche Seite fokussiert drei Kernleistungen: Google Ads, SEO
+                und Webdesign mit sauberer CTA-Logik.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row">
@@ -612,7 +671,7 @@ function HomePage() {
         <div className="panel flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-2xl">
             <p className="text-lg leading-8 text-white/78">
-              Sende eine kurze Projektanfrage und markiere, ob Paid Ads, SEO, Webentwicklung oder
+              Sende eine kurze Projektanfrage und markiere, ob Google Ads, SEO, Webdesign oder
               ein kombiniertes Setup im Fokus steht.
             </p>
           </div>
@@ -631,7 +690,14 @@ function HomePage() {
 }
 
 function ServiceDetailPage({ service }: { service: ServicePage }) {
-  const relatedServices = servicePages.filter((entry) => entry.slug !== service.slug)
+  const relatedServices = service.parentSlug
+    ? [
+        servicePages.find((entry) => entry.slug === service.parentSlug),
+        ...geoServicePages.filter(
+          (entry) => entry.locationKey === service.locationKey && entry.slug !== service.slug,
+        ),
+      ].filter((entry): entry is ServicePage => Boolean(entry))
+    : servicePages.filter((entry) => entry.slug !== service.slug)
 
   return (
     <>
@@ -702,8 +768,12 @@ function ServiceDetailPage({ service }: { service: ServicePage }) {
 
       <SectionShell
         eyebrow="Interne Verlinkung"
-        title="Verwandte Leistungsseiten"
-        intro="Die Deutschland-Seite verzahnt die drei Kernleistungen bewusst miteinander, damit Nutzer und Suchmaschinen die Leistungsbeziehungen klar verstehen."
+        title={service.parentSlug ? 'Verwandte Seiten im lokalen Cluster' : 'Verwandte Leistungsseiten'}
+        intro={
+          service.parentSlug
+            ? 'Geo-Seiten sollten an ihre Master-Seite und an weitere relevante Seiten im selben Standort-Cluster angeschlossen werden.'
+            : 'Die Deutschland-Seite verzahnt die drei Kernleistungen bewusst miteinander, damit Nutzer und Suchmaschinen die Leistungsbeziehungen klar verstehen.'
+        }
       >
         <div className="grid gap-5 lg:grid-cols-2">
           {relatedServices.map((entry) => (
@@ -824,7 +894,7 @@ function AboutPage() {
       <SectionShell
         eyebrow="Contact"
         title="Bereit für ein fokussiertes Deutschland-Setup?"
-        intro="Wenn Paid Ads, SEO und Website-Struktur nicht mehr nebeneinander laufen sollen, ist der nächste Schritt eine konkrete Projektanfrage."
+        intro="Wenn Google Ads, SEO und Website-Struktur nicht mehr nebeneinander laufen sollen, ist der nächste Schritt eine konkrete Projektanfrage."
       >
         <div className="panel flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <p className="max-w-2xl text-base leading-8 text-white/78">
@@ -927,6 +997,52 @@ function ContactPage() {
           },
         ]}
       />
+    </>
+  )
+}
+
+function SitemapPage() {
+  const totalPageCount = sitemapGroups.reduce((count, group) => count + group.links.length, 0)
+
+  return (
+    <>
+      <PageHero
+        eyebrow="Sitemap"
+        title="Alle veröffentlichten Seiten auf einen Blick"
+        description="Diese Übersicht listet die aktuell veröffentlichten Seiten der Deutschland-Version inklusive Service-Master, Geo-Seiten und Pflichtseiten."
+        primary={{ href: '/contact', label: 'Kontakt' }}
+        secondary={{ href: `${siteUrl}/sitemap.xml`, label: 'XML Sitemap', external: true }}
+        metrics={[
+          { label: 'Seiten', value: String(totalPageCount), detail: 'Veröffentlichte HTML-Seiten in dieser Übersicht' },
+          { label: 'Service-Master', value: String(servicePages.length), detail: 'Kernleistungen mit eigener Hauptseite' },
+          { label: 'Geo-Seiten', value: String(geoServicePages.length), detail: 'Tier-1-Standortseiten im Rhein-Ruhr-Cluster' },
+        ]}
+      />
+
+      <SectionShell
+        eyebrow="Seitenübersicht"
+        title="Alle erreichbaren Seiten der Germany-Market-Version"
+        intro="Die Liste basiert direkt auf der vorhandenen Seitenstruktur im Projekt, damit Footer-Link, HTML-Sitemap und XML-Sitemap sauber zusammenpassen."
+      >
+        <div className="grid gap-5 lg:grid-cols-3">
+          {sitemapGroups.map((group) => (
+            <Reveal key={group.title} className="panel h-full">
+              <p className="text-xs uppercase tracking-[0.24em] text-cobalt-soft">{group.title}</p>
+              <p className="mt-4 text-sm leading-7 text-white/70">{group.intro}</p>
+              <ul className="mt-6 space-y-3 text-sm leading-7 text-white/78">
+                {group.links.map((link) => (
+                  <li key={link.to}>
+                    <Link className="transition hover:text-white" to={link.to}>
+                      {link.label}
+                    </Link>
+                    <p className="text-xs uppercase tracking-[0.18em] text-white/42">{link.to}</p>
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
+          ))}
+        </div>
+      </SectionShell>
     </>
   )
 }
@@ -1110,10 +1226,18 @@ function Breadcrumbs() {
         </li>
         {path.map((segment, index) => {
           const href = `/${path.slice(0, index + 1).join('/')}`
+          const geoLocation = geoServicePages.find((entry) => entry.locationKey === segment)
           const label =
             servicePages.find((service) => service.slug === segment)?.pageLabel ||
             legalPages.find((page) => page.slug === segment)?.label ||
-            (segment === 'about' ? 'About' : segment === 'contact' ? 'Kontakt' : segment)
+            geoLocation?.areaServed ||
+            (segment === 'about'
+              ? 'About'
+              : segment === 'contact'
+                ? 'Kontakt'
+                : segment === 'sitemap'
+                  ? 'Sitemap'
+                  : segment)
 
           return (
             <li key={href} className="flex items-center gap-2">
@@ -1321,16 +1445,16 @@ function setMetaTag(attribute: 'name' | 'property', value: string, content: stri
 
 function buildHomeSeo(): SeoConfig {
   return {
-    title: 'Paid Ads, SEO und Webentwicklung für Deutschland | NEO THE AGENCY',
+    title: 'Google Ads, SEO und Webdesign für Deutschland | NEO THE AGENCY',
     description:
-      'NEO THE AGENCY bündelt Paid Ads, SEO und Webentwicklung für Unternehmen in Deutschland mit klaren Conversion-Pfaden.',
+      'NEO THE AGENCY bündelt Google Ads, SEO und Webdesign für Unternehmen in Deutschland mit klaren Conversion-Pfaden.',
     schema: {
       '@context': 'https://schema.org',
       '@type': 'ProfessionalService',
       name: 'NEO THE AGENCY',
       url: siteUrl,
       description:
-        'Performance-driven agency für Deutschland mit Fokus auf Paid Ads, SEO und Webentwicklung.',
+        'Performance-driven agency für Deutschland mit Fokus auf Google Ads, SEO und Webdesign.',
       areaServed: 'Germany',
       serviceType: servicePages.map((service) => service.pageLabel),
       sameAs: [publishedContact.instagram, publishedContact.officialSite],
@@ -1360,7 +1484,7 @@ function buildServiceSeo(service: ServicePage): SeoConfig {
         name: 'NEO THE AGENCY',
         url: siteUrl,
       },
-      areaServed: 'Germany',
+      areaServed: service.areaServed || 'Germany',
       description: service.description,
       url: `${siteUrl}/${service.slug}`,
     },
@@ -1400,6 +1524,29 @@ function buildContactSeo(): SeoConfig {
         telephone: publishedContact.phoneDisplay,
         sameAs: [publishedContact.instagram],
       },
+    },
+  }
+}
+
+function buildSitemapSeo(): SeoConfig {
+  return {
+    title: 'Sitemap | NEO THE AGENCY Germany',
+    description:
+      'HTML-Sitemap der Deutschland-Version von NEO THE AGENCY mit Home, Service-Mastern, Geo-Seiten und Pflichtseiten.',
+    schema: {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: 'Sitemap',
+      url: `${siteUrl}/sitemap`,
+      description:
+        'HTML-Sitemap der Deutschland-Version von NEO THE AGENCY mit allen veröffentlichten Haupt-, Geo- und Rechtseiten.',
+      hasPart: sitemapGroups.flatMap((group) =>
+        group.links.map((link) => ({
+          '@type': 'WebPage',
+          name: link.label,
+          url: `${siteUrl}${link.to}`,
+        })),
+      ),
     },
   }
 }
